@@ -1,14 +1,14 @@
 /* upload fonts */
 
 @font-face {
-  font-family: 'kippcomic';
-  src: url("../fonts/kipp_comics.ttf");
+  font-family: 'Barlow-Medium';
+  src: url("../fonts/Barlow-Medium.ttf");
 }
 
 /* main styles */
 
 body {
-background: #f9cf45;
+background: #101416;
 }
 
 /* centered images class */
@@ -18,4 +18,12 @@ background: #f9cf45;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* titles class */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f9cf45;
+  font-family: "kippcomic", Arial, sans-serif;
+  font-weight: 400;
 }
