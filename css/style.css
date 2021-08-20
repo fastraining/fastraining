@@ -1,8 +1,8 @@
 /* upload fonts */
 
 @font-face {
-  font-family: 'Barlow-Medium';
-  src: url("../fonts/Barlow-Medium.ttf");
+  font-family: 'Barlow-Light';
+  src: url("../fonts/Barlow-Light.ttf");
 }
 
 /* main styles */
@@ -24,6 +24,6 @@ background-color: #101416;
 
 h1, h2, h3, h4, h5, h6 {
   color: #f9cf45;
-  font-family: "kippcomic", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Barlow-Light", Arial, sans-serif;
+  text-align:center;
 }
