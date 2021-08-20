@@ -1,0 +1,21 @@
+/* upload fonts */
+
+@font-face {
+  font-family: 'kippcomic';
+  src: url("../fonts/kipp_comics.ttf");
+}
+
+/* main styles */
+
+body {
+background: #f9cf45;
+}
+
+/* centered images class */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
