@@ -1,3 +1,29 @@
-body{
-	background-color: yellow;
+/* upload fonts */
+
+@font-face {
+  font-family: 'Barlow-Medium';
+  src: url("../fonts/Barlow-Medium.ttf");
+}
+
+/* main styles */
+
+body {
+background-color: #101416;
+}
+
+/* centered images class */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* titles class */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f9cf45;
+  font-family: "kippcomic", Arial, sans-serif;
+  font-weight: 400;
 }
